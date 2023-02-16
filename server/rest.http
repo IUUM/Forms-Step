@@ -1,0 +1,27 @@
+POST http://localhost:8000/api/register 
+//Content-Type: application/json
+
+# {
+#   "username" : "example123",
+#   "password" : "admin123",
+#   "email": "example@gmail.com",
+#   "firstName" : "bill",
+#   "lastName": "william",
+#   "mobile": 8009860560,
+#   "aboutyou" : "Apt. 556, Kulas Light, Gwenborough",
+#   "isInUs": true,
+#   "file": ""
+# }
+
+{
+  FormStage: 3,
+  FormUserSignup: { username: 'eeeee', email: 'a@gmail.com', password: 'Asd$12345' },
+  FormUserProfile: {
+    firstName: 'ddddd',
+    lastName: 'tttttt',
+    mobile: '11111',
+    aboutyou: 'ggggggg',
+    isInUs: true,
+    file: ''
+  }
+}
